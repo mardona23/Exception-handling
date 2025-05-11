@@ -3,8 +3,8 @@ try:
     b=int(input("Enter a second number"))
     print(a/b)
 except ZeroDivisionError:
-    print("number div by zero is not allowed")
+    print("Number div by zero is not allowed")
 except ValueError:
     print("Exception handling")
 finally:
-    print("thank you")
+    print("Thank you")
